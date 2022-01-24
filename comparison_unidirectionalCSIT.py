@@ -3,6 +3,10 @@
 Code for "Team MMSE Precoding with Applications to Cell-free Massive MIMO"
 Output: Comparison between unidirectional TMMSE precoding and the SGD scheme (Fig. 4)
 Author: Lorenzo Miretti
+
+License: This code is licensed under the GPLv2 license. If you in any way
+use this code for research that results in publications, please cite our
+paper as described in the README file
 """
 
 import numpy as np

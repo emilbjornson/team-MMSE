@@ -3,6 +3,10 @@
 Code for "Team MMSE Precoding with Applications to Cell-free Massive MIMO"
 Outupt: Comparison among different CSIT sharing patterns (Fig. 2)
 Author: Lorenzo Miretti
+
+License: This code is licensed under the GPLv2 license. If you in any way
+use this code for research that results in publications, please cite our
+paper as described in the README file
 """
 
 import numpy as np
