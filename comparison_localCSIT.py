@@ -81,7 +81,6 @@ def main():
     plt.grid()
     plt.xlabel('Rate [b/s/Hz]', fontsize=fontsize)
     plt.ylabel('CDF', fontsize=fontsize)
-    plt.savefig("cdf_local.pdf", bbox_inches = 'tight', pad_inches = 0)
 
     plt.show()
 

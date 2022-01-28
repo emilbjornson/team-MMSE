@@ -21,8 +21,8 @@ N_linsearch = 30     # Number of points for linear search (SGD algorithm)
 L = 30               # number of TXs 
 N = 1                # number of antennas per TX (do not change, the SGD algorithm requires N=1)
 K = 7                # number of single-antenna RXs    
-eps = 0.2            # std. deviation CSIT error  
-r_lim = (60,0)       # radius of service area [m] and radius of user distribution [m]
+eps = 0              # std. deviation CSIT error  
+r_lim = (60,50)      # radius of service area [m] and radius of user distribution [m]
                            
 def main():
     R_UTMMSE = []   
@@ -87,7 +87,6 @@ def main():
     plt.grid()
     plt.ylabel('Rate [b/s/Hz]', fontsize=fontsize)
     plt.xlabel('SNR [dB]',fontsize=fontsize)
-    plt.savefig("comparison_SGD_realistic.pdf", bbox_inches = 'tight', pad_inches = 0)
     plt.show()
 
 def SGD(P,H,mu):
