@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Code for "Team MMSE Precoding with Applications to Cell-free Massive MIMO"
-Outupt: Comparison among different CSIT sharing patterns (Fig. 2)
+Output: Comparison among different CSIT sharing patterns (Fig. 2)
 Author: Lorenzo Miretti
 
 License: This code is licensed under the GPLv2 license. If you in any way
