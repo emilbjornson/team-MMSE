@@ -2,9 +2,9 @@
 
 This is a code package related to the following scientific article:
 
-Lorenzo Miretti, Emil Björnson, David Gesbert, “Team MMSE Precoding with Applications to Cell-free Massive MIMO,” IEEE Transactions on Wireless Communications, to appear, 2022.
+Lorenzo Miretti, Emil Björnson, David Gesbert, “Team MMSE Precoding with Applications to Cell-free Massive MIMO,” IEEE Transactions on Wireless Communications, vol. 21, no. 8, pp. 6242-6255, August 2022.
 
-The package contains a simulation environment that reproduces the numerical results in the article. _We encourage you to also perform reproducible research!_
+The package contains a simulation environment that reproduces the numerical results in the article. _We encourage you to also perform reproducible research!
 
 ## Abstract of the article
 
