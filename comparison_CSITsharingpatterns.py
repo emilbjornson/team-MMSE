@@ -14,14 +14,7 @@ import matplotlib.pyplot as plt
 from numpy import sqrt, log2, log10, diag, eye
 from numpy.linalg import norm, inv, pinv
 
-# Parameters
-N_sim = 100          # Monte Carlo iterations for performance evaluation
-N_cdf = 100          # Number of points for CDF 
-L = 30               # number of TXs 
-N = 2                # number of antennas per TX
-K = 7                # number of single-antenna RXs                             
-P = 100/K            # TX power [mW]
-r_lim = (60,50)      # radius of service area [m] and radius of user distribution [m]
+from parameters import N_cdf, N_sim, L, N, K, P, r_lim
 
 def main():
     R_LTMMSE = []   
@@ -263,4 +256,4 @@ def complex_normal(Ni,Nj):
 def herm(x):
     return x.conj().T
 
-main()
+#main()

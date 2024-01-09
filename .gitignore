@@ -1,0 +1,5 @@
+/teamMMSEenv
+*.txt
+.vscode
+__pycache__
+/plots
