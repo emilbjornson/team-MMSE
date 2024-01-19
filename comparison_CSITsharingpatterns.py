@@ -240,7 +240,7 @@ def generate_scenario(plot=False):
         plt.show()
     return G
 
-def get_channel_realizations(G):
+def get_channel_realizations(G, N_sim):
     H_list = []
     for _ in range(N_sim):
         H = np.zeros((K,L*N),dtype=complex)
